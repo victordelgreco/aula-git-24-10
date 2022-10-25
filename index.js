@@ -1,3 +1,4 @@
+const catalogo = require('./users.json')
 //Aluno 1- Responsável por criar o projeto no git e dar acesso aos outros
 
 
