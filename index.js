@@ -1,55 +1,5 @@
-const catalogo = 
+const catalogo = require('./users.json')
 
-[
-    {
-      "id": 1,
-      "nome": "John Brendon",
-      "idade": 20,
-      "sexo": "M",
-      "email": "john@gmail.com",
-      "telefone": "999999999"
-    },
-    {
-      "id": 2,
-      "nome": "Marta Campos",
-      "idade": 17,
-      "sexo": "F",
-      "email": "marta@gmail.com",
-      "telefone": "999999999"
-    },
-    {
-      "id": 3,
-      "nome": "Eduardo Silva",
-      "idade": 15,
-      "sexo": "M",
-      "email": "edu@gmail.com",
-      "telefone": "999999999"
-    },
-    {
-      "id": 4,
-      "nome": "Fernanda Ribeiro",
-      "idade": 26,
-      "sexo": "F",
-      "email": "feferibeiro@gmail.com",
-      "telefone": "999999999"
-    },
-    {
-      "id": 5,
-      "nome": "Marcos Costa",
-      "idade": 20,
-      "sexo": "M",
-      "email": "marcos@gmail.com",
-      "telefone": "999999999"
-    },
-    {
-      "id": 6,
-      "nome": "Janaína Souza",
-      "idade": 40,
-      "sexo": "F",
-      "email": "janaina@gmail.com",
-      "telefone": "999999999"
-    }
-  ]
 
 //Aluno 3 (Yago) - Responsável por criar a função de listar todos os usuários inserindo mais uma informação para cada de ativo: true
 
@@ -90,7 +40,7 @@ function adicionarUsuario(){
   var sexo=prompt("insira seu sexo :")
   var email=prompt("insira seu email:")
   var telefone=prompt("numero de telefone:")
-  
+ 
   catalogo.push({
         "id": 10,
         "nome": nome,
@@ -104,6 +54,3 @@ function adicionarUsuario(){
   
   
   }
-
-
-adicionarUsuario()
